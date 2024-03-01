@@ -5,7 +5,7 @@ library(ggplot2)
 library(ganttrify)
 library(dplyr)
 
-Gantt <- read_csv("/Users/tanishalohchab/Documents/project_gantt_data2.csv", show_col_types = FALSE)
+Gantt <- read_csv("project_gantt_data2.csv", show_col_types = FALSE)
 print(Gantt)
 
 #draw the chart 
